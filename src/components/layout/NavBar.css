@@ -1,0 +1,62 @@
+.nav1 {
+    /* background-color: #003f87; */
+    /* background-color: black; */
+    text-align: left;
+    justify-content: center;
+    width: 100%;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.nav2 {
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: black; */
+    width: 100%;
+}
+
+.ms-auto {
+    text-align: right;
+    /* justify-content: center; */
+}
+
+.nav1 .navbar-brand {
+    color: #003f87;
+}
+
+.nav1 .navbar-brand:hover {
+    color: green;
+}
+
+.nav1 .nav-link {
+    color: #003f87;
+    /* padding: 10px; */
+}
+
+.nav1 .nav-link:hover {
+    color: green;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    /* Aligns nav links to the right */
+}
+
+.nav1.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+    /* Ensures the navbar is above other content */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.03); */
+    background-color: whitesmoke;
+    /* padding: 0 15px; */
+    /* Optional: Add some padding for content inside the header */
+}

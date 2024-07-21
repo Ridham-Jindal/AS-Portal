@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/layout/NavBar.jsx", "src/app/api/users/signup/route.js", "src/app/api/users/login/route.js"],
   "exclude": ["node_modules"]
 }

@@ -1,0 +1,81 @@
+.full {
+    margin-top: 100px;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+    /* Ensure the animations do not overflow */
+}
+
+.container {
+    overflow: hidden;
+}
+
+.heading {
+    color: rgba(245, 245, 245, 0.742);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-shadow: 2px;
+    height: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0;
+    /* Start hidden for animation */
+    animation: fadeInText 1s forwards;
+    /* animation-delay: 2s; */
+    /* Delay to start after image expansion */
+}
+
+.heading1 {
+    font-size: 7rem;
+    font-weight: bold;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+    /* animation: expandImage 2s forwards; */
+}
+
+@keyframes expandImage {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes fadeInText {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.buttonDiv {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    font-size: medium;
+    justify-content: center;
+}
+
+.req {
+    border: solid 2px black;
+    height: 30px;
+    width: auto;
+}

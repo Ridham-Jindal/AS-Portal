@@ -1,0 +1,40 @@
+/* PreLoader.css */
+
+.outerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 100px;
+    background-color: #fff;
+    /* Adjust as needed */
+}
+
+.innerDiv {
+    margin: 10px;
+}
+
+.image1 {
+    width: 100px;
+    /* Adjust as needed */
+    height: 100px;
+    /* Adjust as needed */
+    border-radius: 50%;
+    animation: revealCircle 2s forwards;
+    overflow: hidden;
+}
+
+.image2 {
+    width: 200px;
+    /* Adjust as needed */
+}
+
+@keyframes revealCircle {
+    0% {
+        clip-path: circle(0% at 50% 50%);
+    }
+
+    100% {
+        clip-path: circle(50% at 50% 50%);
+    }
+}

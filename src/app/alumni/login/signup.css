@@ -1,0 +1,15 @@
+.form{
+    /* background-color: red; */
+    /* padding-top: 100px; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.innerDiv{
+    border: 2px solid black;
+    padding: 5px;
+}
+
